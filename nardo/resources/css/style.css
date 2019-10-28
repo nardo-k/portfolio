@@ -1,0 +1,207 @@
+/* latin */
+@font-face {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Nunito Regular'), local('Nunito-Regular'), url(https://fonts.gstatic.com/s/nunito/v11/XRXV3I6Li01BKofINeaBTMnFcQ.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* latin */
+@font-face {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: local('Nunito Black'), local('Nunito-Black'), url(https://fonts.gstatic.com/s/nunito/v11/XRXW3I6Li01BKofAtsGUYevIWzgPDA.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* latin */
+@font-face {
+  font-family: 'Ubuntu Mono';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Ubuntu Mono Bold'), local('UbuntuMono-Bold'), url(https://fonts.gstatic.com/s/ubuntumono/v8/KFO-CneDtsqEr0keqCMhbC-BL9H1tY1keXO0.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* latin */
+@font-face {
+  font-family: 'Ubuntu Mono';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Ubuntu Mono'), local('UbuntuMono-Regular'), url(https://fonts.gstatic.com/s/ubuntumono/v8/KFOjCneDtsqEr0keqCMhbCc6CsTYl4BO.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+html {
+  font-family: 'Ubuntu Mono', 'Courier', 'Monospace';
+  font-weight: 400;
+  font-size: 14px;
+  color: black;
+  margin-bottom: 0px;
+}
+
+/* body */
+body {
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  font-family: 'Nunito', 'Courier New';
+  font-size: 3rem;
+  font-weight: 900;
+  padding-left: 2.5rem;
+  padding-right: 2rem;
+  color: black;
+}
+
+h2 {
+  font-family: 'Ubuntu Mono', 'Courier New';
+  font-size: 1.5rem;
+  font-weight: 700;
+  align-content: center;
+  color: #30486a;
+}
+
+h3 {
+  font-family: 'Ubuntu', 'Courier New';
+  font-size: 1rem;
+  font-weight: 700;
+  padding-left: 2.5rem;
+  padding-right: 2rem;
+}
+
+p{
+  font-family: 'Ubuntu', 'Courier', 'Monospace';
+  font-weight: 400;
+  font-size: 14px;
+  text-align: center;
+}
+
+a{
+  font-family: 'Courier New', 'Courier', 'Monospace';
+  font-weight: 400;
+  font-size: 14px;
+  color: black;
+  text-decoration: none;
+  text-align: center;
+}
+
+span{
+  font-family: "Ubuntu Mono";
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.border-black{
+  background-color: ;
+}
+
+.top-banner {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  position: fixed;
+  left: 50%;
+  margin-left: -50%;
+  z-index: 1;
+}
+
+.inner-banner{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1200px;
+  height: 75px;
+  background-color: white;
+}
+
+.toprightlogo {
+  background-color: white;
+  width: 175px;
+  height: 175px;
+  border-radius: 200px;
+  overflow: hidden;
+  margin-top: 175px;
+  z-index: 2;
+  }
+
+  .align-flex{
+    display: flex;
+    justify-content: center;
+  }
+
+  .ten{
+    width: 10%;
+  }
+
+  .twenty{
+    width: 20%;
+    background-color: grey;
+  }
+
+  .sixty{
+    width: 60%;
+  }
+
+  .seventy{
+    width: 70%;
+  }
+
+  #image-nardo{
+    display: block;
+    max-width: 100%;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 200px;
+  }
+
+.name{
+  color: #30486a;
+  text-shadow: 2px 1px #c06797;
+}
+
+
+/* color pallet:
+green: #2f84a0
+dark blue: #30486a
+pink: #c06797
+*/
+
+.main-container{
+  margin-top: 75px;
+  width: 1200px;
+  border: thin;
+  border-color: black;
+}
+
+.row{
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.block{
+  text-align: center;
+  overflow: hidden;
+  margin: 10px 50px 10px 50px;
+}
+
+.block-top{
+  text-align: center;
+  overflow: hidden;
+  height: 400px;
+  border-radius: 5px;
+}
+
+#block-banner{
+  display: block;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
