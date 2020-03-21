@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="shortcut icon" type="image/png" href="resources/images/favicon.png"/>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="resources/css/normalizer.css" type="text/css">
+  <link rel="stylesheet" href="resources/css/style.css" type="text/css">
+  <link rel="stylesheet" type="text/css" href="slick/slick.css" />
+  <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
+
+  <title>Nardo Kraaijeveld</title>
+</head>
+
+<body onresize="checkMenuOnResize()">
+  <div class="top-container">
+    <header>
+      <div class="menu-bar border-styling-purple">
+        <div class="logo-div">
+          <a id="name" class="first-letter-name"><span class="burger-menu-closed drop-down-button" onclick="burgerMenuChangeToX()">IiI</span><span class="burger-menu-open" onclick="burgerMenuChangeToBurger()">X</span><span class="normal-name">n</span><span class="name-hidden">ard.</span></a>
+        </div>
+        <div class="horizontal-menu">
+          <a class="menu-item english-menu">Work. |</a>
+          <a class="menu-item english-menu">Hobbies. |</a>
+          <a class="menu-item english-menu">Jobs. |</a>
+          <a class="menu-item english-menu">Contact. </a>
+          <a class="menu-item dutch-menu">Werk. |</a>
+          <a class="menu-item dutch-menu">Hobbies. |</a>
+          <a class="menu-item dutch-menu">Ervaring. |</a>
+          <a class="menu-item dutch-menu enlgish-menu">Contact. </a>
+          <a><a onclick="changeLanguageToEnglish()">ENG <img src="resources/images/english-icon.png" style="margin-left: 5px;width:15px;height:15px" class="img-fluid" alt="Switch to the English language."></a> / <a
+              onclick="changeLanguageToDutch()">NL <img src="resources/images/dutch-icon.png" style="margin-left: 5px;width:15px;height:15px" class="img-fluid" alt="Wissel naar het Nederlands."></a></a>
+        </div>
+      </div>
+      <div class="drop-down-menu">
+        <div class="drop-down-content">
+          <a class="english-drop-down-menu">Work. </a>
+          <a class="english-drop-down-menu">Hobbies. </a>
+          <a class="english-drop-down-menu">Jobs. </a>
+          <a class="english-drop-down-menu">Contact. </a>
+          <a class="dutch-drop-down-menu">Werk. </a>
+          <a class="dutch-drop-down-menu">Hobbies. </a>
+          <a class="dutch-drop-down-menu">Ervaring. </a>
+          <a class="dutch-drop-down-menu">Contact. </a>
+        </div>
+      </div>
+    </header>
+  </div>
+  <div class="main-container">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-4 block-styling">
+          <div class="spacing-padding border-styling-blue block-styling bio-container">
+            <div class="image-container">
+              <img src="resources/images/nardo-kraaijeveld.png" class="img-fluid" alt="Nardo Kraaijeveld in private life.">
+            </div>
+            <h1>Nardo Kraaijeveld</h1>
+            <p class="subtitle-p english">Netherlands, Rotterdam</p>
+            <p class="subtitle-p dutch">Nederland, Rotterdam</p>
+            <p class="english">Proud husband, full time Product Growth Manager and Conversion Specialist. Wannabe developer. Headgear, football, music and vinyl lover. Born in the 90's (millennial, but I feel like a Gen-Z =D ).</p>
+            <p class="dutch">Trots getrouwd, voltijd Product Manager en Conversie Specialist. Wannabe developer. Gek op hoofddeksels, voetbal, muziek en langspeelplaten. Geboren in de 90's (millennial, maar ik voel me een Gen-Z =D ).</p>
+          </div>
+        </div>
+        <div class="col-lg-8 block-styling">
+          <div class="spacing-padding border-styling-blue block-styling banner-container">
+            <div class="image-container">
+              <img src="resources/images/nardo-kraaijeveld-copenhagen-superkilen.jpg" class="img-fluid" alt="Nardo Kraaijeveld at the Superkilen in Kopenhagen.">
+            </div>
+            <p class="subtitle-p english">Superkilen Kopenhagen</p>
+            <p class="subtitle-p dutch">Superkilen Kopenhagen</p>
+          </div>
+          <div class="col-lg-12 spacing-padding border-styling-blue inner-block">
+            <p class="english">Scroll down, down, down... to see more Nardo<img src="resources/images/dancing-icon.png" style="margin-left: 5px;width:50px;height:50px" class="img-fluid" alt="Grooveee a bit down, to read more."></p>
+            <p class="dutch">Scroll naar beneden voor meer Nardo... <img src="resources/images/dancing-icon.png" style="margin-left: 5px;width:50px;height:50px" class="img-fluid" alt="Dans je weg naar beneden, om meer te weten te komen."></p>
+          </div>
+          <div id="block-double" class="spacing-padding block-styling border-styling-blue inner-block">
+            <div class="image-slider">
+              <img src="resources/images/happy-husband.png" class="img-fluid" alt="Being happy with my wife.">
+              <img src="resources/images/laos-mountain-top-viewpoint.png" class="img-fluid" alt="Me, in Laos at a 250m viewpoint.">
+              <img src="resources/images/train-to-schiphol.png" class="img-fluid" alt="Me, in the train to schiphol for departure to Laos.">
+              <img src="resources/images/escher-museum.png" class="img-fluid" alt="Me, with friend in the Escher museum. Where small guys become big.">
+              <img src="resources/images/laos-mountain.png" class="img-fluid" alt="Me at the mountain top. Traveling to Vang Vieng, Laos.">
+            </div>
+            <div class="spacing-padding">
+              <h3 class="english">Private shots</h3>
+              <p class="english">A few of my best shots ;) in private atmospheres during holidays and with friends.</p>
+              <h3 class="dutch">Privé snapshots</h3>
+              <p class="dutch">Een aantal van mijn beste shots ;) in privé sferen tijdens vankanties en met vrienden.</p>
+            </div>
+          </div>
+          <div class="spacing-padding border-styling-blue inner-block">
+            <h2 class="english">Work</h2>
+            <p class="english">Test, text in English. In general an useless text that only serves as filling to see if the webdesign looks a bit good. Test, text in English. In general an useless text that only serves as filling to see if the
+              webdesign looks a bit good.</p>
+            <h2 class="dutch">Werk</h2>
+            <p class="dutch">Test, tekstje in het Nederlands. Vooral een nutteloze tekst die hier alleen staat als vulling om te kijken of het design een beetje tot zijn recht komt. Test, tekstje in het Nederlands. Vooral een nutteloze tekst die hier
+              alleen staat als vulling om te kijken of het design een beetje tot zijn recht komt.</p>
+          </div>
+          <div class="spacing-padding border-styling-blue inner-block">
+            <h2 class="english">Hobbies</h2>
+            <p class="english">Test, text in English. In general an useless text that only serves as filling to see if the webdesign looks a bit good. Test, text in English. In general an useless text that only serves as filling to see if the
+              webdesign looks a bit good.</p>
+            <h2 class="dutch">Hobbies</h2>
+            <p class="dutch">Test, tekstje in het Nederlands. Vooral een nutteloze tekst die hier alleen staat als vulling om te kijken of het design een beetje tot zijn recht komt. Test, tekstje in het Nederlands. Vooral een nutteloze tekst die hier
+              alleen staat als vulling om te kijken of het design een beetje tot zijn recht komt.</p>
+          </div>
+          <div class="spacing-padding border-styling-blue inner-block">
+            <h2 class="english">Jobs</h2>
+            <p class="english">Test, text in English. In general an useless text that only serves as filling to see if the webdesign looks a bit good. Test, text in English. In general an useless text that only serves as filling to see if the
+              webdesign looks a bit good.</p>
+            <h2 class="dutch">Ervaring</h2>
+            <p class="dutch">Test, tekstje in het Nederlands. Vooral een nutteloze tekst die hier alleen staat als vulling om te kijken of het design een beetje tot zijn recht komt. Test, tekstje in het Nederlands. Vooral een nutteloze tekst die hier
+              alleen staat als vulling om te kijken of het design een beetje tot zijn recht komt.</p>
+          </div>
+          <div class="spacing-padding border-styling-blue inner-block">
+            <h2 class="english">Contact</h2>
+            <p class="english">Get in touch via one of the following channels.</p>
+            <h2 class="dutch">Contact</h2>
+            <p class="dutch">Maak contact via een van onderstaande kanalen.</p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+      </div>
+      <div class="row">
+      </div>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+
+  <script type="text/javascript" src="slick/slick.min.js"></script>
+  <script type="text/javascript" src="javascript.js"></script>
+</body>
+
+</html>
