@@ -274,7 +274,7 @@ pink: #c06797 */
   display: none;
 }
 
-@media only screen and (max-width: 990px) {
+@media (max-width: 990px) {
   body {
     width: 780px;
   }
@@ -283,7 +283,7 @@ pink: #c06797 */
     width: 780px;
   }
 
-  .block-double {
+  #block-double {
     display: block;
   }
 
@@ -301,7 +301,7 @@ pink: #c06797 */
   }
 }
 
-@media only screen and (max-width: 780px) {
+@media (max-width: 780px) {
   body {
     width: 700px;
   }
@@ -357,9 +357,9 @@ pink: #c06797 */
   }
 
   .first-letter-name {
-    -webkit-animation: spin 1.5s ease;
-    -moz-animation: spin 1.5s ease;
-    animation: spin 1.5s ease;
+    -webkit-animation: spin 0s ease;
+    -moz-animation: spin 0s ease;
+    animation: spin 0s ease;
     -webkit-animation-fill-mode: forwards;
   }
 
@@ -386,7 +386,7 @@ pink: #c06797 */
   }
 }
 
-@media only screen and (max-width: 720px) {
+@media (max-width: 720px) {
   body {
     width: 520px;
   }
@@ -400,7 +400,7 @@ pink: #c06797 */
   }
 }
 
-@media only screen and (max-width: 520px) {
+@media (max-width: 520px) {
   body {
     width: 440px;
   }
@@ -414,7 +414,7 @@ pink: #c06797 */
   }
 }
 
-@media only screen and (max-width: 440px) {
+@media (max-width: 440px) and (min-width: 1px) {
   body {
     width: 320px;
   }

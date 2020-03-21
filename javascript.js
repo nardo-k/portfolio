@@ -94,7 +94,6 @@ let burgerMenuChangeToBurger = () => {
   document.getElementsByClassName('drop-down-menu')[0].style.display = "none";
   document.getElementsByClassName('burger-menu-closed')[0].style.display = "block";
   document.getElementsByClassName('burger-menu-open')[0].style.display = "none";
-  console.log('test');
 }
 
 let previousScrollPosition = window.pageYOffset;
