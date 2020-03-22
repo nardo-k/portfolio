@@ -194,8 +194,21 @@ pink: #c06797 */
   background-color: white;
 }
 
+.menu-item:hover{
+  color: #c06797;
+  font-weight: bold;
+  text-decoration: none;
+}
+
 .drop-down-menu {
   display: none;
+}
+
+.hidden-anchor {
+  display: block;
+  height: 0px;
+  margin-top: -0px;
+  visibility :hidden;
 }
 
 .border-styling-purple {
@@ -357,34 +370,47 @@ pink: #c06797 */
   }
 
   .first-letter-name {
-    -webkit-animation: spin 0s ease;
-    -moz-animation: spin 0s ease;
-    animation: spin 0s ease;
-    -webkit-animation-fill-mode: forwards;
+    -webkit-animation: rotation 0s ease;
+    -moz-animation: rotation 0s ease;
+    -ms-animation: rotation 0s ease;
+    -o-animation: rotation 0s ease;
+    animation: rotation 0s ease;
   }
 
-  @-moz-keyframes spin {
-    100% {
-      -moz-transform: rotate(-90deg);
-      -webkit-animation-fill-mode: forwards;
+  @-webkit-keyframes rotation {
+    from {
+      -webkit-transform: rotate(0deg);
+    } to {
+      -webkit-transform: rotate(90deg);
     }
   }
 
-  @-webkit-keyframes spin {
-    100% {
-      -webkit-transform: rotate(-90deg);
-      -webkit-animation-fill-mode: forwards;
+  @-moz-keyframes rotation {
+    from {
+      -moz-transform: rotate(0deg);
+    } to {
+      -moz-transform: rotate(90deg);
     }
   }
 
-  @keyframes spin {
-    100% {
-      -webkit-transform: rotate(-90deg);
-      transform: rotate(-90deg);
-      -webkit-animation-fill-mode: forwards;
+  @-ms-keyframes rotation {
+    from {
+      -ms-transform: rotate(0deg);
+    } to {
+      -ms-transform: rotate(90deg);
     }
   }
-}
+
+  @-o-keyframes rotation {
+    from {
+      -o-transform: rotate(0deg);
+    } to {
+      -o-transform: rotate(90deg);
+    }
+  }
+
+
+} /* end media query */
 
 @media (max-width: 720px) {
   body {
@@ -396,7 +422,7 @@ pink: #c06797 */
   }
 
   .img-fluid {
-    max-width: 65%;
+    max-width: 80%;
   }
 }
 
@@ -410,7 +436,7 @@ pink: #c06797 */
   }
 
   .img-fluid {
-    max-width: 70%;
+    max-width: 90%;
   }
 }
 

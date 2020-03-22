@@ -101,10 +101,10 @@ let previousScrollPosition = window.pageYOffset;
 $(window).scroll(function() {
   let currentScrollPosition = window.pageYOffset;
 
-  if (previousScrollPosition > currentScrollPosition) {
-    document.getElementsByClassName("top-container")[0].style.display = "block";
-  } else {
+  if (currentScrollPosition > 65 && currentScrollPosition > previousScrollPosition) {
     document.getElementsByClassName("top-container")[0].style.display = "none";
+  } else if (currentScrollPosition < previousScrollPosition) {
+    document.getElementsByClassName("top-container")[0].style.display = "block";
   }
   previousScrollPosition = currentScrollPosition;
 });
