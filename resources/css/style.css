@@ -127,6 +127,10 @@ a {
   cursor: pointer;
 }
 
+a:hover {
+  text-decoration: none;
+}
+
 img {
   border-radius: 15px;
 }
@@ -194,7 +198,7 @@ pink: #c06797 */
   background-color: white;
 }
 
-.menu-item:hover{
+a.menu-item:hover{
   color: #c06797;
   font-weight: bold;
   text-decoration: none;
