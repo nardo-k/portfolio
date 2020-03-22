@@ -19,7 +19,8 @@
     <header>
       <div class="menu-bar border-styling-purple">
         <div class="logo-div">
-          <a id="name" class="first-letter-name"><span class="burger-menu-closed drop-down-button" onclick="burgerMenuChangeToX()">IiI</span><span class="burger-menu-open" onclick="burgerMenuChangeToBurger()">X</span><span class="normal-name">n</span><span class="name-hidden">ard.</span></a>
+          <a id="name" class="first-letter-name"><span class="burger-menu-closed drop-down-button" onclick="burgerMenuChangeToX()">IiI</span><span class="burger-menu-open" onclick="burgerMenuChangeToBurger()">X</span><span class="name-hidden">nard.</span></a>
+          <p class="name-styling">n.</p>
         </div>
         <div class="horizontal-menu">
           <a class="menu-item english-menu" href="#work">Work. </a>
@@ -36,14 +37,14 @@
       </div>
       <div class="drop-down-menu">
         <div class="drop-down-content">
-          <a class="english-drop-down-menu" href="#work">Work. </a>
-          <a class="english-drop-down-menu" href="#hobbies">Hobbies. </a>
-          <a class="english-drop-down-menu" href="#jobs">Jobs. </a>
-          <a class="english-drop-down-menu" href="#contact">Contact. </a>
-          <a class="dutch-drop-down-menu" href="#work">Werk. </a>
-          <a class="dutch-drop-down-menu" href="#hobbies">Hobbies. </a>
-          <a class="dutch-drop-down-menu" href="#jobs">Ervaring. </a>
-          <a class="dutch-drop-down-menu" href="#contact">Contact. </a>
+          <a class="english-drop-down-menu" href="#work" onclick="burgerMenuChangeToBurger()">Work. </a>
+          <a class="english-drop-down-menu" href="#hobbies" onclick="burgerMenuChangeToBurger()">Hobbies. </a>
+          <a class="english-drop-down-menu" href="#jobs" onclick="burgerMenuChangeToBurger()">Jobs. </a>
+          <a class="english-drop-down-menu" href="#contact" onclick="burgerMenuChangeToBurger()">Contact. </a>
+          <a class="dutch-drop-down-menu" href="#work" onclick="burgerMenuChangeToBurger()">Werk. </a>
+          <a class="dutch-drop-down-menu" href="#hobbies" onclick="burgerMenuChangeToBurger()">Hobbies. </a>
+          <a class="dutch-drop-down-menu" href="#jobs" onclick="burgerMenuChangeToBurger()">Ervaring. </a>
+          <a class="dutch-drop-down-menu" href="#contact" onclick="burgerMenuChangeToBurger()">Contact. </a>
         </div>
       </div>
     </header>
@@ -59,8 +60,8 @@
             <h1>Nardo Kraaijeveld</h1>
             <p class="subtitle-p english">Netherlands, Rotterdam</p>
             <p class="subtitle-p dutch">Nederland, Rotterdam</p>
-            <p class="english">Proud husband, full time Product Growth Manager and Conversion Specialist. Wannabe developer. Headgear, football, music and vinyl lover. Born in the 90's (millennial, but I feel like a Gen-Z =D ).</p>
-            <p class="dutch">Trots getrouwd, voltijd Product Manager en Conversie Specialist. Wannabe developer. Gek op hoofddeksels, voetbal, muziek en langspeelplaten. Geboren in de 90's (millennial, maar ik voel me een Gen-Z =D ).</p>
+            <p class="english">Proud husband, full time Product Growth Manager and Conversion Specialist. Developer... in future ;) . Headgear, football, music and vinyl lover. Born in the 90's (millennial, but I feel like a Gen-Z =D ).</p>
+            <p class="dutch">Trots getrouwd, voltijd Product Manager en Conversie Specialist. Developer in spe. Gek op hoofddeksels, voetbal, muziek en langspeelplaten. Geboren in de 90's (millennial, maar ik voel me een Gen-Z =D ).</p>
           </div>
         </div>
         <div class="col-lg-8 block-styling">
@@ -87,7 +88,7 @@
               <h3 class="english">Private shots</h3>
               <p class="english">A few of my best shots ;) in private atmospheres during holidays and with friends.</p>
               <h3 class="dutch">Privé snapshots</h3>
-              <p class="dutch">Een aantal van mijn beste shots ;) in privé sferen tijdens vankanties en met vrienden.</p>
+              <p class="dutch">Een aantal van mijn beste shots ;) in privésferen tijdens vakanties en met vrienden.</p>
             </div>
           </div>
           <span class="hidden-anchor" id="work"></span>
@@ -120,9 +121,19 @@
           <span class="hidden-anchor" id="contact"></span>
           <div class="spacing-padding border-styling-blue inner-block">
             <h2 class="english">Contact</h2>
-            <p class="english">Get in touch via one of the following channels.</p>
+            <p class="english">Like what you’ve seen? Get in touch - don't be shy!</p>
+            <p class="english">Or just follow me.</p>
             <h2 class="dutch">Contact</h2>
-            <p class="dutch">Maak contact via een van onderstaande kanalen.</p>
+            <p class="dutch">Vond je het leuk of ben je geïnterreseerd? Neem gerust contact op!</p>
+            <p class="dutch">Of je kan me ook gewoon volgen.</p>
+            <div class="follow-me">
+              <a class="linkedin">
+                <img src="resources/images/linkedin-original.png" class="social-icons" alt="Contect with me via LinkedIn.">
+              </a>
+              <a class="instagram">
+                <img src="resources/images/instagram-original.png" class="social-icons" alt="Follow me via Instagram.">
+              </a>
+            </div>
           </div>
           <div class="spacing-padding border-styling-blue inner-block">
             <h2 class="english">Fake</h2>

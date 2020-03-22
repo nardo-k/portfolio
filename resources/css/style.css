@@ -254,7 +254,7 @@ a.menu-item:hover{
   overflow: hidden;
 }
 
-#name {
+#name, .name-styling {
   color: #30486a;
   text-shadow: 2px 1px #c06797;
   margin: -5px;
@@ -262,6 +262,11 @@ a.menu-item:hover{
   font-size: 3rem;
   font-weight: 900;
   text-align: center;
+}
+
+.name-styling {
+  margin-left: 20%;
+  display: none;
 }
 
 .logo-div {
@@ -291,6 +296,19 @@ a.menu-item:hover{
   display: none;
 }
 
+.follow-me{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.social-icons{
+  border-radius: 0px;
+  width: 30px;
+  margin: 5px;
+}
+
 @media (max-width: 990px) {
   body {
     width: 780px;
@@ -307,6 +325,10 @@ a.menu-item:hover{
   .image-slider {
     width: 60%;
     margin: auto;
+  }
+
+  .img-fluid {
+    max-width: 60%;
   }
 
   .banner-container {
@@ -329,6 +351,10 @@ a.menu-item:hover{
 
   .name-hidden {
     display: none;
+  }
+
+  .name-styling {
+    display: block;
   }
 
   .burger-menu-closed {
@@ -370,49 +396,16 @@ a.menu-item:hover{
   }
 
   .img-fluid {
-    max-width: 65%;
+    max-width: 75%;
+  }
+
+  .image-slider {
+    width: 75%;
   }
 
   .first-letter-name {
-    -webkit-animation: rotation 0s ease;
-    -moz-animation: rotation 0s ease;
-    -ms-animation: rotation 0s ease;
-    -o-animation: rotation 0s ease;
-    animation: rotation 0s ease;
+    transform: rotate(270deg);
   }
-
-  @-webkit-keyframes rotation {
-    from {
-      -webkit-transform: rotate(0deg);
-    } to {
-      -webkit-transform: rotate(90deg);
-    }
-  }
-
-  @-moz-keyframes rotation {
-    from {
-      -moz-transform: rotate(0deg);
-    } to {
-      -moz-transform: rotate(90deg);
-    }
-  }
-
-  @-ms-keyframes rotation {
-    from {
-      -ms-transform: rotate(0deg);
-    } to {
-      -ms-transform: rotate(90deg);
-    }
-  }
-
-  @-o-keyframes rotation {
-    from {
-      -o-transform: rotate(0deg);
-    } to {
-      -o-transform: rotate(90deg);
-    }
-  }
-
 
 } /* end media query */
 
@@ -428,6 +421,11 @@ a.menu-item:hover{
   .img-fluid {
     max-width: 80%;
   }
+
+  .image-slider {
+    width: 80%;
+  }
+
 }
 
 @media (max-width: 520px) {
@@ -442,6 +440,10 @@ a.menu-item:hover{
   .img-fluid {
     max-width: 90%;
   }
+
+  .image-slider {
+    width: 90%;
+  }
 }
 
 @media (max-width: 440px) and (min-width: 1px) {
@@ -452,4 +454,12 @@ a.menu-item:hover{
   header {
     width: 320px;
   }
+
+  .img-fluid {
+    max-width: 100%;
+  }
+  .image-slider {
+    width: 100%;
+  }
+
 }
