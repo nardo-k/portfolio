@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="shortcut icon" type="image/png" href="resources/images/favicon.png"/>
+  <link rel="shortcut icon" type="image/png" href="resources/images/favicon.png" />
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <link rel="stylesheet" href="resources/css/normalizer.css" type="text/css">
   <link rel="stylesheet" href="resources/css/style.css" type="text/css">
@@ -19,7 +19,8 @@
     <header>
       <div class="menu-bar border-styling-purple">
         <div class="logo-div">
-          <a id="name" class="first-letter-name"><span class="burger-menu-closed drop-down-button" onclick="burgerMenuChangeToX()">IiI</span><span class="burger-menu-open" onclick="burgerMenuChangeToBurger()">X</span><span class="name-hidden">nard.</span></a>
+          <a id="name" class="first-letter-name"><span class="burger-menu-closed drop-down-button" onclick="burgerMenuChangeToX()">IiI</span><span class="burger-menu-open" onclick="burgerMenuChangeToBurger()">X</span><span
+              class="name-hidden">nard.</span></a>
           <p class="name-styling">n.</p>
         </div>
         <div class="horizontal-menu">
@@ -121,47 +122,57 @@
           <span class="hidden-anchor" id="contact"></span>
           <div class="spacing-padding border-styling-blue inner-block">
             <h2 class="english">Contact</h2>
-            <p class="english">Like what you’ve seen? Get in touch - don't be shy!</p>
-            <p class="english">Or just follow me.</p>
+            <p class="english">Like what you’ve seen? Get in touch and stay connected!</p>
             <h2 class="dutch">Contact</h2>
-            <p class="dutch">Vond je het leuk of ben je geïnterreseerd? Neem gerust contact op!</p>
+            <p class="dutch">Geïnterreseerd? Ik sta altijd open voor een lekker Rotterdams bakkie!</p>
+            <div>
+              <form class="contact-form" action="/contact-form.php">
+                <label class="english" for="first-name">First Name</label>
+                <input class="english" type="text" id="first-name" name="firstname" placeholder="Your first name..">
+
+                <label class="dutch" for="first-name">Voornaam</label>
+                <input class="dutch" type="text" id="first-name" name="firstname" placeholder="Jouw voornaam..">
+
+                <label class="english" for="last-name">Last Name</label>
+                <input class="english" type="text" id="last-name" name="lastname" placeholder="Your last name..">
+
+                <label class="dutch" for="last-name">Achternaam</label>
+                <input class="dutch" type="text" id="last-name" name="lastname" placeholder="Jouw achternaam..">
+
+                <label class="english" for="subject">Subject</label>
+                <input class="english" type="text" id="subject" name="subject" placeholder="Write your subject.."></input>
+
+                <label class="dutch" for="subject">Onderwerp</label>
+                <input class="dutch" type="text" id="subject" name="subject" placeholder="Benoem het onderwerp.."></input>
+
+                <label class="english" for="subject">E-mail address</label>
+                <input class="english" type="text" id="emailaddress" name="emailaddress" placeholder="info@yourprovider.com"></input>
+
+                <label class="dutch" for="subject">E-mailadres</label>
+                <input class="dutch" type="text" id="emailaddress" name="emailaddress" placeholder="info@jouwprovider.nl"></input>
+
+                <label class="english" for="subject">Message</label>
+                <textarea class="english" id="message" name="message" placeholder="Write your message.."></textarea>
+
+                <label class="dutch" for="subject">Berichtje</label>
+                <textarea class="dutch" id="message" name="message" placeholder="Schrijf je bericht.."></textarea>
+
+                <input class="english" class="contact-form-submit-button" type="submit" value="Submit">
+                <input class="dutch" class="contact-form-submit-button" type="submit" value="Verzenden">
+              </form>
+            </div>
+            <p class="english">Or just follow me.</p>
             <p class="dutch">Of je kan me ook gewoon volgen.</p>
             <div class="follow-me">
-              <a class="linkedin">
+              <a class="linkedin" target="_blank" href="https://www.linkedin.com/in/nardo-kraaijeveld-07209843">
                 <img src="resources/images/linkedin-original.png" class="social-icons" alt="Contect with me via LinkedIn.">
               </a>
-              <a class="instagram">
+              <a class="instagram" target="_blank" href="https://www.instagram.com/nardokra/">
                 <img src="resources/images/instagram-original.png" class="social-icons" alt="Follow me via Instagram.">
               </a>
             </div>
           </div>
-          <div class="spacing-padding border-styling-blue inner-block">
-            <h2 class="english">Fake</h2>
-            <p class="english">Test, text in English. In general an useless text that only serves as filling to see if the webdesign looks a bit good. Test, text in English. In general an useless text that only serves as filling to see if the
-              webdesign looks a bit good. Test, text in English. In general an useless text that only serves as filling to see if the webdesign looks a bit good. Test, text in English. In general an useless text that only serves as filling to see if the
-                webdesign looks a bit good. Test, text in English. In general an useless text that only serves as filling to see if the webdesign looks a bit good. Test, text in English. In general an useless text that only serves as filling to see if the
-                  webdesign looks a bit good. Test, text in English. In general an useless text that only serves as filling to see if the webdesign looks a bit good. Test, text in English. In general an useless text that only serves as filling to see if the
-                    webdesign looks a bit good. Test, text in English. In general an useless text that only serves as filling to see if the webdesign looks a bit good. Test, text in English. In general an useless text that only serves as filling to see if the
-                      webdesign looks a bit good. Test, text in English. In general an useless text that only serves as filling to see if the webdesign looks a bit good. Test, text in English. In general an useless text that only serves as filling to see if the
-                        webdesign looks a bit good. Test, text in English. In general an useless text that only serves as filling to see if the webdesign looks a bit good. Test, text in English. In general an useless text that only serves as filling to see if the
-                          webdesign looks a bit good. Test, text in English. In general an useless text that only serves as filling to see if the webdesign looks a bit good. Test, text in English. In general an useless text that only serves as filling to see if the
-                            webdesign looks a bit good.</p>
-            <h2 class="dutch">Neppie</h2>
-            <p class="dutch">Test, tekstje in het Nederlands. Vooral een nutteloze tekst die hier alleen staat als vulling om te kijken of het design een beetje tot zijn recht komt. Test, tekstje in het Nederlands. Vooral een nutteloze tekst die hier
-              alleen staat als vulling om te kijken of het design een beetje tot zijn recht komt. Test, tekstje in het Nederlands. Vooral een nutteloze tekst die hier alleen staat als vulling om te kijken of het design een beetje tot zijn recht komt. Test, tekstje in het Nederlands. Vooral een nutteloze tekst die hier
-                alleen staat als vulling om te kijken of het design een beetje tot zijn recht komt. Test, tekstje in het Nederlands. Vooral een nutteloze tekst die hier alleen staat als vulling om te kijken of het design een beetje tot zijn recht komt. Test, tekstje in het Nederlands. Vooral een nutteloze tekst die hier
-                  alleen staat als vulling om te kijken of het design een beetje tot zijn recht komt. Test, tekstje in het Nederlands. Vooral een nutteloze tekst die hier alleen staat als vulling om te kijken of het design een beetje tot zijn recht komt. Test, tekstje in het Nederlands. Vooral een nutteloze tekst die hier
-                    alleen staat als vulling om te kijken of het design een beetje tot zijn recht komt. Test, tekstje in het Nederlands. Vooral een nutteloze tekst die hier alleen staat als vulling om te kijken of het design een beetje tot zijn recht komt. Test, tekstje in het Nederlands. Vooral een nutteloze tekst die hier
-                      alleen staat als vulling om te kijken of het design een beetje tot zijn recht komt. Test, tekstje in het Nederlands. Vooral een nutteloze tekst die hier alleen staat als vulling om te kijken of het design een beetje tot zijn recht komt. Test, tekstje in het Nederlands. Vooral een nutteloze tekst die hier
-                        alleen staat als vulling om te kijken of het design een beetje tot zijn recht komt. Test, tekstje in het Nederlands. Vooral een nutteloze tekst die hier alleen staat als vulling om te kijken of het design een beetje tot zijn recht komt. Test, tekstje in het Nederlands. Vooral een nutteloze tekst die hier
-                          alleen staat als vulling om te kijken of het design een beetje tot zijn recht komt. Test, tekstje in het Nederlands. Vooral een nutteloze tekst die hier alleen staat als vulling om te kijken of het design een beetje tot zijn recht komt. Test, tekstje in het Nederlands. Vooral een nutteloze tekst die hier
-                            alleen staat als vulling om te kijken of het design een beetje tot zijn recht komt.</p>
-          </div>
         </div>
-      </div>
-      <div class="row">
-      </div>
-      <div class="row">
       </div>
     </div>
   </div>
